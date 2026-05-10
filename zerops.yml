@@ -23,7 +23,8 @@ zerops:
       # REQUIRED. Select which files / folders to deploy after
       # the build has successfully finished
       deployFiles:
-        - dist
+        - .next
+        - public
         - package.json
         - node_modules
 
