@@ -41,7 +41,9 @@ zerops:
       ports:
         # port number
         - port: 3000
-
+          httpSupport: true
+        # OPTIONAL. Set the HTTP protocol for your service. Default is http1.
+        # http2: true
       # OPTIONAL. Customize the runtime Node.js environment by installing additional
       # dependencies to the base Node.js runtime environment.
       # prepareCommands:
